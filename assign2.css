@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 304.5px;
+    width: 300px;
+
+}
+
+.container{
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    padding: 100px;
+    margin: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container .write span{
+    color: hsl(277, 64%, 61%);
+}
+
+.container{
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container .write{
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    background-color: hsl(244, 38%, 16%);
+}
+
+.container .write h2{
+    padding-bottom: 5%;
+    display: auto;
+}
+
+.container .write p{
+    padding: 10px;
+    flex-direction: column;
+}
+
+.container .write .details{
+    display: flex;
+}
